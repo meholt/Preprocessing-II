@@ -1,3 +1,12 @@
+.btn {
+  width: 80%;
+  border-radius: 10px;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  background-color: #17A2B8;
+  padding: 10px 15px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -171,11 +180,16 @@ img {
 header {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin: 20px auto;
+  border-bottom: 2px dashed #C0C0C0;
+}
+header h1 {
+  margin-left: 200px;
+  font-style: bold;
 }
 nav {
   display: flex;
-  margin-left: 250px;
+  padding-left: 300px;
 }
 nav a {
   display: flex;
@@ -183,6 +197,7 @@ nav a {
   text-decoration: none;
   color: #212529;
   font-size: 1.6em;
+  font-style: bold;
 }
 .footer {
   width: 100%;
