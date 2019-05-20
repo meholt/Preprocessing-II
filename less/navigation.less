@@ -5,11 +5,16 @@
 header {
     display: flex;
     align-items: center;
+    padding-bottom: 20px;
     margin: 20px auto;
     border-bottom: 2px dashed @navigation-border;
     h1 {
         margin-left: 200px;
         font-style: bold;
+    }
+    @media @mobile {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
