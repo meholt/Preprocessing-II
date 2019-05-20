@@ -1,11 +1,10 @@
 // Mixins in here
 
-.btn {
+.btn(@border-radius; @backgroundColor) {
     width: 80%;
-    border-radius: 10px;
-    color: white;
-    font-size: 2em;
-    text-align: center;
-    background-color: @button-bg;
     padding: 10px 15px;
+    text-align: center;
+    font-size: 2em;
+    border-radius: @border-radius;
+    background-color: @backgroundColor;
 }
